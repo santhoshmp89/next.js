@@ -1,9 +1,3 @@
-import Link from 'next/link'
-export default () => (
-  <div>
-    Hello World.{' '}
-    <Link href="/about">
-      <a>About</a>
-    </Link>
-  </div>
-)
+import Layout from "../components/Layout";
+
+export default () => <Layout>Hello Next.js </Layout>;
